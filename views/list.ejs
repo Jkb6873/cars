@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cars</title>
+    </head>
+    <body>
+        <h1>Cars</h1>
+        <ol>
+        <% cars.forEach(function(item, index){ %>
+            <div>
+            <a href= car/<%= index %>> <%= item.name %></a>
+            </div>
+        <% }); %>
+        </ol>
+    </body>
+</html>
